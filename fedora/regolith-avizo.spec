@@ -21,7 +21,8 @@ Requires:       light
 Requires:       playerctl
 Requires:       librsvg2
 Recommends:     pulseaudio-utils
-Provides:       avizo
+Provides:       avizo = %{version}-%{release}
+Conflicts:      avizo
 
 %description
 mainly intended to be used for multimedia keys for
